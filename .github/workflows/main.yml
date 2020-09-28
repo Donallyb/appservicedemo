@@ -11,7 +11,7 @@ env:
     DOTNET_VERSION: '2.2.110'
 
     jobs:
-        build-and-Deploy:
+        build-and-deploy:
             runs-on: ubuntu-latest
             steps:
 
