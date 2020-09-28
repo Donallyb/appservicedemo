@@ -27,7 +27,7 @@ env:
                   with: 
                     dotnet-version: ${{ env.DOTNET_VERSION }}
 
-                - name: dotnet build + publish
+                - name: Dotnet build and publish
                 run: |
                     dotnet build --configuration release
                     dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH}}//myapp'
